@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>信息列表-乄無时博客</title>
+<load href='__PUBLIC__/Css/obthink.css' />
+</head>
+
+<body>
+<include file="Index/menu" />
+<div class="clea"></div>
+<div class="indexshow">
+
+<div class="indexleftshow">
+<h4>文章列表</h4>
+<ul>
+<foreach name="list" item="vo">  
+<li>[{$vo.typename}]<a href="__URL__/showm/id/{$vo.id}">{$vo.title|msubstr=0,50,'utf-8',false}</a> {$vo.senddate|date='Y-m-d',###} 
+
+ <span class="ilsd">
+	<if condition="$_SESSION['uname'] eq 'xadmin' ">
+		<a href="__URL__/del/id/{$vo.id}">删除</a> 
+		<a href="__URL__/edit/id/{$vo.id}">修改</a>
+    <else /> 
+    </if>
+	</span>
+
+</li>
+ </foreach>  
+ </ul>
+<div class="pages">{$show}</div>
+</div>
+<div class="indexrightshow">
+ <include file="Index/inav" />
+ <include file="Index/ihit" />
+</div>
+</div>
+ <include file="Index/footer" />
+</body>
+</html>

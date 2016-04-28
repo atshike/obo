@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<volist name="show" id="sh">
+<title>{$sh.title}-乄無时博客</title>
+<load href='__PUBLIC__/Css/obthink.css' />
+</head>
+<body>
+<include file="Index/menu" />
+<div class="clea"></div>
+<div class="oshow">
+
+<h2>{$sh.title}</h2>
+<div class="wri">{$sh.writer} | {$sh.typename} |  {$sh.senddate|date='Y-m-d',###}<if condition="$_SESSION['uname'] eq 'xadmin' ">
+		 | <a href="__URL__/del/id/{$sh.id}">删除</a> 
+		 | <a href="__URL__/edit/id/{$sh.id}">修改</a>
+    <else /> 
+    </if></div>
+<div style="padding:20px; size:12px; border:1px solid #ccc; background:#ffeeee; margin:10px 0;">{$sh.title}</div>
+
+<if condition="$sh.litpic neq '' ">
+<img src="{$sh.litpic}"><br />
+</if>
+
+{$sh.body|htmlspecialchars_decode|stripslashes}
+</volist>
+
+<div class="nm" style="margin:20px 0;">
+<li>
+<volist name="sa" id="sa">
+<if condition="$sa['title'] neq '' "> 下一条：<a href="__URL__/showm/id/{$sa.id}">{$sa.title}</a>
+    <else /> 
+		无记录！
+</if>
+</volist>
+</li>
+<li><volist name="sc" id="sc">
+    <if condition="$sc['title'] neq '' "> 上一条：<a href="__URL__/showm/id/{$sc.id}">{$sc.title}</a>
+    <else /> 
+		无记录！
+	</if>
+</volist>
+
+</li>
+</div>
+</div>
+ <include file="Index/footer" />
+ </body>
+ </html>

@@ -1,0 +1,11 @@
+<div class="obona">
+<h4>点击排行</h4>
+<ul>
+<foreach name="hit" item="hii">
+<li><a href="__URL__/showm/id/{$hii.id}">
+{$hii.title|msubstr=0,14,'utf-8',false}
+</a>
+</li>
+</foreach>
+</ul>
+</div>

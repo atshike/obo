@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员中心</title>
+<meta name="description" content="This is action！" >
+<meta name="keywords" content="SEO,网站建设,网络营销,">
+<load href='__PUBLIC__/Css/obthink.css' />
+</head>
+<body>
+
+<br />
+<br />
+<br />
+<center>
+<if condition="($_SESSION['uname'] neq '')">欢迎您，{$_SESSION['uname']} <a href="__APP__/">[首页]</a> &nbsp;&nbsp;[<a href="__APP__/home/index/add">发布</a>]&nbsp;&nbsp; <a href="__URL__/logout">[退出]</a>
+<else /> 
+	<a href="__URL__/reg">[注册]</a><a href="__URL__/log">[ 登录]</a>
+</if>
+</center>
+</body>
+</html>

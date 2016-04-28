@@ -1,0 +1,26 @@
+<div class="head">
+<div class="header">
+<h2>乄無时博客</h2>
+<div class="reg">
+
+<if condition="($_SESSION['uname'] neq '')">欢迎您，{$_SESSION['uname']} <a href="__APP__/home/member/">[用户中心]</a> &nbsp;&nbsp;[<a href="__URL__/add">发布</a>]&nbsp;&nbsp; <a href="__URL__/logout">[退出]</a>
+<else /> 
+	<a href="__URL__/reg">[注册]</a><a href="__URL__/log">[ 登录]</a>
+</if>
+
+</div></div>
+</div> <div class="clea"></div>	
+<div class="menu">
+<ul>
+    <li><a href="__CONTROLLER__">网站首页</a></li>
+    <li><a href="__CONTROLLER__/listi/typeid/10">WEB前端开发</a></li>
+    <li><a href="__CONTROLLER__/listi/typeid/34">SEO优化</a></li>
+    <li><a href="__CONTROLLER__/listi/typeid/33">网络营销</a></li>
+    <li><a href="__CONTROLLER__/listi/typeid/11">程序开发</a></li>
+    <li><a href="__MODULE__">HTML5</a></li>
+	<li><a href="__MODULE__">服务项目</a></li>
+    <li><a href="__MODULE__">成功案例</a></li>
+    <li><a href="#">微网站</a> </li>
+</ul>
+</div>
+

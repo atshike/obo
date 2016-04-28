@@ -1,0 +1,6 @@
+[ 2016-04-28T04:26:50+08:00 ] 180.97.106.36 /index.php/ThinkPHP/Tpl/think_exception.tpl
+ERR: 无法加载控制器:Tpl
+
+[ 2016-04-28T04:26:51+08:00 ] 180.97.106.37 /index.php/ThinkPHP/Tpl/page_trace.tpl
+ERR: 无法加载控制器:Tpl
+

@@ -1,0 +1,11 @@
+<load href='__PUBLIC__/Css/obadmin.css' />
+<div class="am">
+<h2>文章列表</h2>
+<foreach name="list" item="vo">  
+<li>
+<span class="ilsc">[{$vo.typename}] {$vo.title|msubstr=0,50,'utf-8',false} {$vo.senddate|date='Y-m-d',###}</span> 
+<span class="ilsd"> <a href="__URL__/edit/id/{$vo.id}" class="ilsdb">修改</a>  <a href="__URL__/del/id/{$vo.id}" class="ilsda">删除</a></span>
+</li>
+</foreach>
+<div class="pages">{$show}</div>
+</div>

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>乄無时博客</title>
+<meta name="description" content="This is action！" >
+<meta name="keywords" content="SEO,网站建设,网络营销,">
+<load href='__PUBLIC__/Css/obthink.css' />
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$(".con").prepend('<div class="nav_ub"></div><div class="nav_db"></div>')
+	$(".con").hover(function(){
+		$(this).children(".nav_ub").stop().animate({top:-26},300);
+		$(this).find(".pos").stop().animate({left:220},250);
+		$(this).children(".nav_db").stop().animate({bottom:-14},300);
+		$(this).find(".pos").stop().animate({left:220},250);
+	},function(){
+		$(this).children(".nav_ub").stop().animate({top:0},300);
+		$(this).find(".pos").stop().animate({left:200},250);
+		$(this).children(".nav_db").stop().animate({bottom:0},300);
+		$(this).find(".pos").stop().animate({left:200},250);
+	});
+})
+</script>
+</head>
+
+<body>
+<include file="Index/menu" />
+<div class="clea"></div>
+<div class="indexshow">
+
+<div class="indexleftshow">
+<h4>文章列表</h4>
+<ul>
+<foreach name="list" item="vo">  
+<li>[<a href="__URL__/listi/typeid/{$vo.typeid}" title="{$vo.typename}" class="ilsa">{$vo.typename}</a>]
+<a href="__URL__/showm/id/{$vo.id}" title="{$vo.title}" class="ilsb">
+{$vo.title|msubstr=0,50,'utf-8',false}
+</a> <span class="ilsc">{$vo.senddate|date='Y-m-d',###}</span> 
+</li>
+ </foreach>  
+ </ul>
+<div class="pages">{$show}</div>
+</div>
+<div class="indexrightshow">
+ <include file="Index/inav" />
+<div class="obona">
+<form action="__URL__/search" method="get">
+
+<input id="search-keyword" class="intext" type="text" onblur="if(this.value==''){this.value='在这里搜索...';}" onfocus="if(this.value=='在这里搜索...'){this.value='';}" value="在这里搜索..." name="q">
+<input name="提交" type="submit" value="搜索" class="sub" />　
+</form>
+</div>
+ <include file="Index/ihit" />
+</div>
+</div>
+ <include file="Index/footer" />
+</body>
+</html>

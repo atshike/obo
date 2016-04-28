@@ -1,0 +1,228 @@
+[ 2016-04-28T04:22:19+08:00 ] 180.97.106.37 /index.php/admin/category/notexist_path.html
+ERR: 无法加载控制器:Category
+
+[ 2016-04-28T04:22:20+08:00 ] 180.97.106.161 /index.php/admin/category/checkpic.html
+ERR: 无法加载控制器:Category
+
+[ 2016-04-28T04:26:01+08:00 ] 180.97.106.161 /index.php/admin/privilege.php?act=login
+ERR: 无法加载控制器:Privilege.php
+
+[ 2016-04-28T04:26:19+08:00 ] 115.239.212.4 /index.php/admin/cpstyle.css
+ERR: 无法加载控制器:Cpstyle.css
+
+[ 2016-04-28T04:26:39+08:00 ] 180.97.106.37 /index.php/admin/editor/editor/dialog/fck_about.html
+ERR: 无法加载控制器:Editor
+
+[ 2016-04-28T05:07:10+08:00 ] 180.97.106.37 /index.php/admin/ap-application.bootstrap
+ERR: 无法加载控制器:Ap-application.bootstrap
+
+[ 2016-04-28T07:56:39+08:00 ] 58.211.2.30 /index.php/admin/index/reg
+ERR: 非法操作:reg
+
+[ 2016-04-28T07:56:39+08:00 ] 58.211.2.36 /index.php/admin/index/reg
+ERR: 非法操作:reg
+
+[ 2016-04-28T09:51:07+08:00 ] 58.211.2.30 /index.php/admin/index/add
+ERR: 非法操作:add
+
+[ 2016-04-28T09:51:07+08:00 ] 58.211.2.60 /index.php/admin/index/add
+ERR: 非法操作:add
+
+[ 2016-04-28T09:54:01+08:00 ] 58.211.2.30 /index.php/admin/index/add
+ERR: 非法操作:add
+
+[ 2016-04-28T09:54:03+08:00 ] 58.211.2.30 /index.php/admin/columns/add
+ERR: 非法操作:add
+
+[ 2016-04-28T09:54:04+08:00 ] 58.211.2.96 /index.php/admin/columns/add
+ERR: 非法操作:add
+
+[ 2016-04-28T09:57:01+08:00 ] 58.211.2.30 /index.php/admin/index/articles
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-04-28T09:58:46+08:00 ] 58.211.2.30 /index.php/admin/index/articles
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-04-28T10:00:33+08:00 ] 58.211.2.30 /index.php/admin/index/articles
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-04-28T10:01:51+08:00 ] 58.211.2.30 /index.php/admin/index/articles
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-04-28T10:14:06+08:00 ] 58.211.2.30 /index.php/admin/index/edit/id/163
+ERR: 模板不存在:./App/Admin/View/Index/edir.html
+
+[ 2016-04-28T10:14:07+08:00 ] 58.211.2.42 /index.php/admin/index/edit/id/163
+ERR: 模板不存在:./App/Admin/View/Index/edir.html
+
+[ 2016-04-28T10:14:55+08:00 ] 58.211.2.30 /index.php/admin/index/edit/id/161
+ERR: 模板不存在:./App/Admin/View/Index/edir.html
+
+[ 2016-04-28T10:14:55+08:00 ] 116.31.126.247 /index.php/admin/index/edit/id/161
+ERR: 模板不存在:./App/Admin/View/Index/edir.html
+
+[ 2016-04-28T10:19:02+08:00 ] 58.211.2.30 /index.php/admin/index/add
+ERR: 模板不存在:./App/Admin/View/Index/add.html
+
+[ 2016-04-28T10:48:57+08:00 ] 58.211.2.30 /index.php/admin/index/showm/id/163
+ERR: 非法操作:showm
+
+[ 2016-04-28T10:48:57+08:00 ] 58.211.2.60 /index.php/admin/index/showm/id/163
+ERR: 非法操作:showm
+
+[ 2016-04-28T11:16:50+08:00 ] 58.211.2.30 /index.php/admin/columns/add
+ERR: 非法操作:add
+
+[ 2016-04-28T11:16:51+08:00 ] 58.211.2.30 /index.php/admin/columns/columns
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-04-28T11:16:52+08:00 ] 58.211.2.30 /index.php/admin/columns/columns
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-04-28T11:19:05+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/34
+ERR: 非法操作:edit
+
+[ 2016-04-28T11:19:05+08:00 ] 58.211.2.60 /index.php/admin/columns/edit/id/34
+ERR: 非法操作:edit
+
+[ 2016-04-28T11:43:47+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/34
+ERR: 模板不存在:./App/Admin/View/columns/cedit.html
+
+[ 2016-04-28T11:45:11+08:00 ] 58.211.2.30 /index.php/admin/columns/admin/columns/edit/id/33
+ERR: 非法操作:admin
+
+[ 2016-04-28T11:45:13+08:00 ] 58.211.2.6 /index.php/admin/columns/admin/columns/edit/id/33
+ERR: 非法操作:admin
+
+[ 2016-04-28T11:45:51+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/34
+ERR: 模板不存在:./App/Admin/View/columns/cedit.html
+
+[ 2016-04-28T11:46:50+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/34
+ERR: 模板不存在:./App/Admin/View/columns/cedit.html
+
+[ 2016-04-28T11:47:21+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/33
+ERR: 模板不存在:./App/Admin/View/columns/cedir.html
+
+[ 2016-04-28T11:47:24+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/33
+ERR: 模板不存在:./App/Admin/View/columns/cedir.html
+
+[ 2016-04-28T11:47:26+08:00 ] 58.211.2.30 /index.php/admin/columns/edit/id/31
+ERR: 模板不存在:./App/Admin/View/columns/cedir.html
+
+[ 2016-04-28T11:47:26+08:00 ] 116.31.126.244 /index.php/admin/columns/edit/id/31
+ERR: 模板不存在:./App/Admin/View/columns/cedir.html
+
+[ 2016-04-28T13:05:00+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:05:02+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:05:02+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:05:03+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:05:03+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:05:56+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:05:57+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:05:58+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:06:01+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:06:48+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:06:49+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:06:49+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:34+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:35+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:08:36+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:37+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:37+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:37+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:38+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:38+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:38+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:38+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:08:38+08:00 ] 58.211.2.30 /index.php/admin/users/users
+ERR: 模板不存在:./App/Admin/View/users/list.html
+
+[ 2016-04-28T13:09:14+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:09:57+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:16:26+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:24:27+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:26:19+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+
+[ 2016-04-28T13:52:35+08:00 ] 58.211.2.30 /index.php/admin/users/update
+ERR: 非法操作:update
+
+[ 2016-04-28T14:01:19+08:00 ] 58.211.2.30 /index.php/admin/users/update
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=27 )
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=27 )
+
+[ 2016-04-28T14:01:58+08:00 ] 58.211.2.30 /index.php/admin/users/update
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=29 )
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=29 )
+
+[ 2016-04-28T14:02:48+08:00 ] 58.211.2.30 /index.php/admin/users/update
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=29 )
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=29 )
+
+[ 2016-04-28T14:03:58+08:00 ] 58.211.2.30 /index.php/admin/users/update
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=29 )
+ERR: 1048:Column 'uname' cannot be null
+ [ SQL语句 ] : UPDATE `uadmin` SET `uname`=NULL,`pwd`='d41d8cd98f00b204e9800998ecf8427e',`email`=NULL WHERE ( id=29 )
+
+[ 2016-04-28T14:11:29+08:00 ] 58.211.2.30 /index.php/admin/users/add
+ERR: 非法操作:add
+

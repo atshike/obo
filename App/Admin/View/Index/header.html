@@ -1,0 +1,12 @@
+<load href='__PUBLIC__/Css/obadmin.css' />
+<div class="aheader">
+<div class="head">
+<h2>后台管理</h2>
+<if condition="($_SESSION['uname'] neq '')">欢迎您，{$_SESSION['uname']} <a href="__APP__/home/member/">[用户中心]</a> &nbsp;&nbsp;[<a href="__URL__/add">发布</a>]&nbsp;&nbsp; <a href="javascript:parent.location.replace('logout');">[退出]</a>
+<else /> 
+<script>
+	parent.location.replace('log');
+</script>
+</if>
+</div>
+</div>
