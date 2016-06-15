@@ -5,7 +5,7 @@ class IndexController extends Controller {
     public function index(){
 	
 		$mod = D("Archives");
-		$count=$mod->count();
+		$count=$mod->count();//统计总数
 		$Page = new \Think\Page($count,20);
 		$Page->setConfig('header','条信息');
 		$Page->setConfig('prev','上一页');
