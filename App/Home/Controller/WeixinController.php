@@ -101,7 +101,7 @@ class wechatCallbackapiTest
                     $rep = "您可以发送：1/新闻：查看新闻；2/活动：查看活动；3/地图：查看当前地里位置。";
                 }
                 mysqli_query('SET NAMES utf8');
-                $con = mysqli_connect("localhost", "kuangxiang", "tianshanxue0098.", "weixin");
+                $con = mysqli_connect("localhost", "root", "test.", "weixin");
                 $sql = "INSERT INTO `weixin` (`id`, `touser`, `fromuser`, `createtime`, `content`) VALUES ('','$toUser','$fromUser','$time','$Content')";
                 if (mysqli_query($con, $sql)) {
                     $str = sprintf($tpl, $toUser, $fromUser, $time, $MsgType, $rep);
