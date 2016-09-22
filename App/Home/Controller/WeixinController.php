@@ -92,7 +92,7 @@ class wechatCallbackapiTest
                 $time = $CreateTime;
                 $MsgType = "text";
                 if ($Content == "1" || $Content == "新闻") {
-                    $rep = "最新新闻,此处省略3千字...";
+                    $rep = $this->news();
                 } elseif ($Content == "2" || $Content == "活动") {
                     $rep = "最新活动,此处省略3千字...";
                 } elseif ($Content == "3" || $Content == "地图") {
@@ -193,6 +193,27 @@ class wechatCallbackapiTest
         } else {
             return false;
         }
+    }
+    
+    
+    public function news()
+    {
+        $con = $this->conn();
+        $sql = "select title from archives ORDER BY id desc limit 5";
+        $result = $con->query($sql);
+        if ($result->num_rows > 0) {
+            $rows =array();
+            while ($row = $result->fetch_assoc()) {
+                $rows[] = $row['title'];
+            }
+        }
+        return "$rows[0] \n $rows[1] \n $rows[2] \n $rows[3] \n $rows[4]";
+    }
+
+    private function conn(){
+        mysqli_query('SET NAMES utf8');
+        $con = mysqli_connect("localhost", "root", ".", "data");
+        return $con;
     }
 }
 
