@@ -341,4 +341,16 @@ class IndexController extends Controller {
 		$_SESSION['uname']='';
 		$this->success('退出成功！',U("Index/index"));
 	}
+	
+	public function bBack(){
+		//分享
+        $url='http://api.share.baidu.com/getnum?url=URL&callback=bdShare.fn._getShare&type=share';
+        $html=file_get_contents($url);
+        echo($html)."<br/>";
+        $v=explode(",",$html);
+        echo $v[2]."<br/>";
+        $v2=$v[2];
+        $v3=explode('"',$v2);
+        echo $v3[1];
+	}
 }
